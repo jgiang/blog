@@ -37,7 +37,7 @@ var increment = function() {num += 1};
 
 PythonTutor walks us through this code, showing which line is being executed at each step and how that execution affects the values of variables in our frames. The final diagram should look like this:
 
-<img src="/images/diagramming-1.png">
+<img src="{{site.url}}/images/diagramming-1.png">
 <figcaption>diagram after all of the code to the left has been executed</figcaption>
 The next post will tackle diagramming function calls!
 
