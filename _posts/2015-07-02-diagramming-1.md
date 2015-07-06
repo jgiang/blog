@@ -37,7 +37,7 @@ var increment = function() {num += 1};
 
 PythonTutor walks us through this code, showing which line is being executed at each step and how that execution affects the values of variables in our frames.
 
-<iframe width="800" height="500" frameborder="0" src="http://pythontutor.com/iframe-embed.html#code=var+num+%3D+0%3B%0Avar+bool+%3D+true%3B%0Avar+str+%3D+%22hello+world%22%3B%0Avar+numArray+%3D+%5B0,+1,+2%5D%3B%0Avar+arrPtr+%3D+numArray%3B%0Avar+increment+%3D+function(%29+%7Bnum+%2B%3D+1%7D%3B&origin=opt-frontend.js&cumulative=false&heapPrimitives=false&textReferences=false&py=js&rawInputLstJSON=%5B%5D&curInstr=0&codeDivWidth=350&codeDivHeight=400"> </iframe>
+<div align="center"><iframe width="900" height="350" frameborder="0" src="http://pythontutor.com/iframe-embed.html#code=var+num+%3D+0%3B%0Avar+bool+%3D+true%3B%0Avar+str+%3D+%22hello+world%22%3B%0Avar+numArray+%3D+%5B0,+1,+2%5D%3B%0Avar+arrPtr+%3D+numArray%3B%0Avar+increment+%3D+function(%29+%7Bnum+%2B%3D+1%7D%3B&origin=opt-frontend.js&cumulative=false&heapPrimitives=false&textReferences=false&py=js&rawInputLstJSON=%5B%5D&curInstr=0&codeDivWidth=350&codeDivHeight=400"></iframe></div>
 
 <figcaption>click through the steps to get a feel for how data is stored</figcaption>
 The next post will tackle diagramming function calls!
