@@ -13,7 +13,7 @@ share: true
 
 # What is a recursive function?
 
-WARNING: This post is a work in progress! It is still pretty convoluted.
+###WARNING: This post is a work in progress! It is still pretty convoluted.
 
 A recursive function is simply a function that calls itself.
 
@@ -40,10 +40,7 @@ Likewise, our function body should be manipulating the data available to it (the
 function) to get closer to a result. But where does the recursive call come in?
 
 Here's how it goes: 
-The function body should manipulate the input (do what it needs to do with the input) and then hand off a chunk of the problem to a recursive call, which will continue this manipulation/hand-off procedure. Each recursive call needs to return its result so that it can be used in the bigger picture. The function needs
-to use the result of the recursive call (the solution to a smaller chunk of the problem) to
-solve the whole problem it's facing. Since we count on the recursive call to give us a partial
-solution, we call this part our "leap of faith".
+The function body should manipulate the input (do what it needs to do with the input) and then make a recursive call with simpler input. Assume the recursive call for this simpler/smaller problem will work and use its result to solve the bigger problem. Each recursive call needs to return its result so that it can be used in the bigger picture. Since we count on the recursive call to give us a partial solution, we call this part our "leap of faith".
 
 So far, the function will do whatever it does until it calls itself,
 then the new function call will execute all the code before *its* recursive call... etc. Hopefully
